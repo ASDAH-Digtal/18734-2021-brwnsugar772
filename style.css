@@ -35,10 +35,14 @@ Date:
 
 .section1{ /*DO NOT REMOVE*/
     grid-area: section1;
+    background-color: #6930C3;
+    padding: 60px
 }
 
 .section2{ /*DO NOT REMOVE*/
     grid-area: section2;
+    background-color: #5E60CE;
+    padding: 20px
 }
 
 .videoSection{ /*DO NOT REMOVE*/
