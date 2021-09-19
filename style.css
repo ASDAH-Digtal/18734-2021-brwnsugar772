@@ -51,13 +51,20 @@ Date:
 
 .references{
   grid-area: references;
+  text-align: center;
+  background-color: #5390D9
 }
 
 .footer{ /*DO NOT REMOVE*/
     grid-area: footer;
+    text-align: center;
+    background-color: #4EA8DE
 }
 
 img{
   width: 100%
 }
 
+img{
+  height: 100%;
+}
