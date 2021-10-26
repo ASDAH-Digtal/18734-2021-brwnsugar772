@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 /*
 Name: 
 Date: 
@@ -18,7 +21,9 @@ Date:
 .header{ /*DO NOT REMOVE*/
     grid-area: header;
     text-align: center;
-    background-color: #7400B8
+    background-color: #7400B8;
+    font-family: 'Zen Antique', serif;
+    color: #4EA8DE
 }
 
 .main{ /*DO NOT REMOVE*/
@@ -36,13 +41,18 @@ Date:
 .section1{ /*DO NOT REMOVE*/
     grid-area: section1;
     background-color: #6930C3;
-    padding: 60px
+    padding: 60px;
+    font-family: 'Oswald', sans-serif;
+    color: #4EA8DE
 }
 
 .section2{ /*DO NOT REMOVE*/
     grid-area: section2;
     background-color: #5E60CE;
-    padding: 20px
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #4EA8DE
+
 }
 
 .videoSection{ /*DO NOT REMOVE*/
@@ -52,13 +62,17 @@ Date:
 .references{
   grid-area: references;
   text-align: center;
-  background-color: #5390D9
+  background-color: #5390D9;
+  color: #6930C3;
+  padding: 20px;
 }
 
 .footer{ /*DO NOT REMOVE*/
     grid-area: footer;
     text-align: center;
-    background-color: #4EA8DE
+    background-color: #4EA8DE;
+    color: #7400B8;
+    padding: 20px;
 }
 
 img{
